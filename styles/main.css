@@ -17,13 +17,16 @@
     background-color: var( --body-bg-color);
     box-shadow: none;
     justify-content: space-between;
-
 }
 .contentProjects>div{
+    width: 31.2em;
+    height: 10em;
     box-shadow: 0.16em 0.16em var(--box-shadow);
     background-color: var(--bg-cards);
     border-radius: 1em;
-    width: 48.6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .contentProjects>div>div{
     height: 3em;
@@ -31,33 +34,8 @@
     display: flex;
     align-items: center;    
 }
-
-.imgProject{
-    width: 1.2em;
-    margin: 0.4em;
-}
-.contentProjects>div>p{
-    text-align: justify;
-    font-size: 12px;
-    margin: 0em 3em 0em 3em;
-}
-.branchIcons{
-    display: flex;
-}
-.branchIcons>p{
-    vertical-align: bottom;
-    margin: 0.2em 0.7em 0em 0.5em;
-}
-.containerBranch{
-    justify-content: space-between;
-    font-size: 12px;
-
-}
-.containerBranch>div>img{
-    margin: 0em 0em 0.2em 0.8em;
-}
 .post{
-    height: 11.6em;
+    height: 13em;
     align-items: center;
 }
 .post>div{
@@ -65,18 +43,26 @@
     flex-direction: row;
 }
 .post>div>div>img{
-    margin: 0em 2em;
+    justify-items: center;
+    align-items: center;
+    margin: 2em 2em;
     width: 7em;
     height: 7em;
     border-radius: 50em;  
 }
 .contentPost>h1{
     font-size: 24px;
-    margin: 0.3em 0em ;
+    margin: 1em 0em 0em 0em ;
 }
 .contentPost>p{
-    font-size: 12px;
+    font-size: 10px;
+    
     margin: 0em 0em 1em 0em;
+}
+.contentPost>h2{
+    font-size: 14px;
+    text-align: justify;
+    margin: 0em 3em 1em 0em;
 }
 .contentPost>div{
     display: flex;
