@@ -64,7 +64,7 @@
     width: 5em;
     height: 1.6em;
     margin-top: 0.4em;
-    background-color: var(--bg-techs);
+    background-color: var(--green);
     border-radius: 1em;
     text-align: center;
 }

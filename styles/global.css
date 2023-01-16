@@ -2,15 +2,11 @@
 
 :root{
     --body-bg-color: #22212C;
-    --text-color: #837E9F;
-    --bg-cards: #302F3D;
-    --bg-techs: #CB92B1;
-    --box-shadow:#1b1b28;
+    --green: #459268;
     --border-self: #00FF00;
 }
 *{
-    color: var(--text-color);
-
+    color: var(--green);
 }
 body{
     background-color: var(--body-bg-color);
@@ -25,11 +21,11 @@ body{
 }
 
 section{
-    background-color: var(--bg-cards);
     border-radius: 1em;
     margin: 1.8em 2em ;
     display: flex;
-    box-shadow: 0.16em 0.16em var(--box-shadow);
+    border: var(--box-shadow);
+    box-shadow: -0.16em -0.16em var(--green), 0.16em 0.16em var(--green);
 
 }
 
